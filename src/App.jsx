@@ -76,6 +76,7 @@ const MyComponent = () => {
 
   return (
     <div>
+      <div>hii i am rect</div>
       <PDFDownloadLink
         document={<MyDocument invoices={invoices} username={username} />}
         fileName="invoices.pdf"
